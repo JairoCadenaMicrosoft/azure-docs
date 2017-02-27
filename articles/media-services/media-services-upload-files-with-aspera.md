@@ -13,7 +13,11 @@ ms.workload: media
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: get-started-article
+<<<<<<< HEAD
 ms.date: 01/30/2017
+=======
+ms.date: 02/22/2017
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ms.author: juliako
 
 ---
@@ -114,6 +118,18 @@ Once you have logged into Azure Marketplace,  follow these basic steps to comple
 
 	![Aspera](./media/media-services-upload-files-with-aspera/media-services-upload-files-with-aspera012.png)
 
+<<<<<<< HEAD
+=======
+## Resources
+
+The following resources were mentioned in this article. 
+
+* [Connect Browser Plugin](http://downloads.asperasoft.com/connect2/)
+* [Connect Guide](http://downloads.asperasoft.com/en/documentation/8)
+* [Aspera Client](http://downloads.asperasoft.com/en/downloads/2)
+* [Client Guide](http://downloads.asperasoft.com/en/documentation/2)
+
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ## Next steps
 
 You can now [copy blobs from a storage account into an AMS account ](media-services-copying-existing-blob.md#copy-blobs-from-a-storage-account-into-an-ams-account).

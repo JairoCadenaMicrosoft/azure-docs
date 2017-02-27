@@ -20,7 +20,11 @@ ms.author: apimpm
 
 API Management provides the capability to secure access to APIs (i.e., client to API Management) using client certificates. Currently, you can check the thumbprint of a client certificate against a desired value. You can also check the thumbprint against existing certificates uploaded to API Management.  
 
+<<<<<<< HEAD
 For information about securing access to the back-end service of an API using client certificates (i.e., API Management to back-end), [How to secure back-end services using client certificate authentication](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates)
+=======
+For information about securing access to the back-end service of an API using client certificates (i.e., API Management to back-end), see [How to secure back-end services using client certificate authentication](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-mutual-certificates)
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 ## Checking a thumbprint against a desired value
 

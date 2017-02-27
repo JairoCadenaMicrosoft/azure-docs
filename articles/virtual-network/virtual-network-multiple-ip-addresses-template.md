@@ -120,7 +120,11 @@ To deploy the template using PowerShell, complete the following steps:
 
 	Regardless of the option you choose to deploy the template with, you must supply values for the parameter values listed in the [parameters](#parameters) section of this article. If you choose to supply parameters using a parameters file, copy the contents of the [parameters file](https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/101-vm-multiple-ipconfig/azuredeploy.parameters.json) from GitHub into a new file on your computer. Modify the values in the file. Use the file you created as the value for the `-TemplateParameterFile` parameter.
 	
+<<<<<<< HEAD
 	To determine valid values for the OSVersion, ImagePublisher, and imageOffer parameters, complete the steps in the [Navigate and select Windows VM images article](../virtual-machines/virtual-machines-windows-cli-ps-findimage.md#powershell) article.
+=======
+	To determine valid values for the OSVersion, ImagePublisher, and imageOffer parameters, complete the steps in the [Navigate and select Windows VM images article](../virtual-machines/virtual-machines-windows-cli-ps-findimage.md) article.
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 	>[!TIP]
 	>If you're not sure whether a dnslabelprefix is available, enter the `Test-AzureRmDnsAvailability -DomainNameLabel <name-you-want-to-use> -Location <location>` command to find out. If it is available, the command will return `True`.
@@ -155,7 +159,11 @@ To deploy the template using the Azure CLI 1.0, complete the following steps:
 
 	Regardless of the option you choose to deploy the template with, you must supply values for the parameter values listed in the [parameters](#parameters) section of this article. If you choose to supply parameters using a parameters file, copy the contents of the [parameters file](https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/101-vm-multiple-ipconfig/azuredeploy.parameters.json) from GitHub into a new file on your computer. Modify the values in the file. Use the file you created as the value for the `--parameters-file` (-e) parameter.
 	
+<<<<<<< HEAD
 	To determine valid values for the OSVersion, ImagePublisher, and imageOffer parameters, complete the steps in the [Navigate and select Windows VM images article](../virtual-machines/virtual-machines-windows-cli-ps-findimage.md#azure-cli-10) article.
+=======
+	To determine valid values for the OSVersion, ImagePublisher, and imageOffer parameters, complete the steps in the [Navigate and select Windows VM images article](../virtual-machines/virtual-machines-windows-cli-ps-findimage.md) article.
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 3. After the VM is deployed, connect to the VM and add the private IP addresses to the operating system you deployed by completing the steps in the [Add IP addresses to a VM operating system](#os-config) section of this article. Do not add the public IP addresses to the operating system.
 

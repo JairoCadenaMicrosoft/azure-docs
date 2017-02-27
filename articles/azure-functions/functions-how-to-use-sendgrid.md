@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: How to use Send Grid in Azure Functions | Microsoft Docs
 description: Shows how to use Send Grid in Azure Functions
+=======
+title: How to use SendGrid in Azure Functions | Microsoft Docs
+description: Shows how to use SendGrid in Azure Functions
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 services: functions
 documentationcenter: na
 author: rachelappel

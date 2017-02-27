@@ -71,7 +71,11 @@ For more information, see [Azure PowerShell Versioning](https://docs.microsoft.c
 2. Make sure the VM has been deallocated.
 
     ```powershell
+<<<<<<< HEAD
 	Stop-AzureRmVM -ResourceGroupName $rgName -VMName $vmName -Force
+=======
+	Stop-AzureRmVM -ResourceGroupName $rgName -Name $vmName -Force
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 	```
 	
 3. Set the status of the virtual machine to **Generalized**. 
@@ -116,7 +120,11 @@ Create a managed image using your generalized OS VHD.
 2. Step\deallocate the VM.
 
     ```powershell
+<<<<<<< HEAD
 	Stop-AzureRmVM -ResourceGroupName $rgName -VMName $vmName -Force
+=======
+	Stop-AzureRmVM -ResourceGroupName $rgName -Name $vmName -Force
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 	```
 	
 3. Mark the VM as generalized.

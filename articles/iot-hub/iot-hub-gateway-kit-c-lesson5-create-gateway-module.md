@@ -19,6 +19,10 @@ ms.author: xshi
 
 ---
 # Lesson 5: Create your first Azure IoT Gateway module
+<<<<<<< HEAD
+=======
+While the Gateway SDK allows you to build modules written in Java, .NET, or Node.js, this tutorial walks you through the steps for building a module in C.
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 ## What you will do
 

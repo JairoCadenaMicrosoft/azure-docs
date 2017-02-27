@@ -3,8 +3,13 @@ title: Azure Premium and Standard Managed Disks Overview | Microsoft Docs
 description: Overview of Azure Managed Disks, which handles the storage accounts for you when using Azure VMs
 services: storage
 documentationcenter: na
+<<<<<<< HEAD
 author: ramankumarlive
 manager: tadb
+=======
+author: robinsh
+manager: timlt 
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 editor: tysonn
 
 ms.assetid: 272250b3-fd4e-41d2-8e34-fd8cc341ec87
@@ -13,8 +18,13 @@ ms.workload: storage
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
+<<<<<<< HEAD
 ms.date: 02/06/2017
 ms.author: ramankum
+=======
+ms.date: 02/23/2017
+ms.author: robinsh
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 ---
 
@@ -23,7 +33,12 @@ ms.author: ramankum
 Azure Managed Disks simplifies disk management for Azure IaaS VMs by managing the [storage accounts](storage-introduction.md) associated with the VM disks. You only have to specify the type ([Premium](storage-premium-storage.md) or [Standard](storage-standard-storage.md)) and the size of disk you need, and Azure creates and manages the disk for you.
 
 >[!NOTE]
+<<<<<<< HEAD
 > Managed Disks require the availability of port 8443; if you want to block that port, you must use unmanaged disks.
+=======
+>VMs with Managed Disks require outbound traffic on port 8443 to report the status of the installed [VM extensions](../virtual-machines/virtual-machines-windows-extensions-features.md) to the Azure platform. Provisioning a VM with extensions will fail without the availability of this port. Also, the deployment status of an extension will be unknown if it is installed on a running VM. If you cannot unblock port 8443, you must use unmanaged disks. We are actively working to fix this issue. Please refer to the [FAQ for IaaS VM Disks](storage-faq-for-disks.md#managed-disks-and-port-8443) for more details. 
+>
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 >
 
 ## Benefits of managed disks

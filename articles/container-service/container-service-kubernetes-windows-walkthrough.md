@@ -53,9 +53,19 @@ All VMs are in the same private virtual network and are fully accessible to each
 
 ## Create the cluster
 
+<<<<<<< HEAD
 You can use the Azure portal to [create a Kubernetes cluster](container-service-deployment.md#create-a-cluster-by-using-the-azure-portal) with Windows agent nodes. 
 
 On the **Framework configuration** pane, in **Orchestrator configuration**, select **Kubernetes - Windows**. 
+=======
+You can use the Azure portal to [create a Kubernetes cluster](container-service-deployment.md#create-a-cluster-by-using-the-azure-portal) with Windows agent nodes. Note the following settings when creating the cluster:
+
+* On the **Basics** blade, in **Orchestrator**, select **Kubernetes**. 
+* On the **Master configuration** blade, enter user credentials and service principal credentials for the Linux master nodes.
+* On the **Agent configuration** blade, in **Operating system**, select **Windows (preview)**. Enter administrator credentials for the Windows agent nodes.
+
+For details, see [Deploy an Azure Container Service cluster](container-service-deployment.md).
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 ## Connect to the cluster
 
@@ -65,7 +75,11 @@ Use the `kubectl` command-line tool to connect from your local computer to the m
 
 After creating the cluster and connecting with `kubectl`, you can try starting a basic Windows web app and expose it to the internet. In this example, you specify the container resources using a YAML file, and then create it using `kubctl apply`.
 
+<<<<<<< HEAD
 1. To see a list of your nodes, type `kubectl get nodes`.  If you want full details of the nodes, type:  
+=======
+1. To see a list of your nodes, type `kubectl get nodes`. If you want full details of the nodes, type:  
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
   ```
   kubectl get nodes -o yaml

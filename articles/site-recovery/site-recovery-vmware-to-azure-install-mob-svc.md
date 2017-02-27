@@ -13,18 +13,35 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: backup-recovery
+<<<<<<< HEAD
 ms.date: 12/9/2016
+=======
+ms.date: 2/20/2017
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ms.author: anoopkv
 ---
 
 # Installing Mobility Service (VMware/Physical to Azure)
+<<<<<<< HEAD
 Mobility Service needs to be  deployed on every machine (VMware VM or physical server) that you want to replicate to Azure. It captures data writes on the machine, and forwards them to the process server.  Mobility Service can be deployed onto the servers that require protection in the following methods
+=======
+Mobility Service needs to be  deployed on every machine (VMware VM or physical server) that you want to replicate to Azure. It captures data writes on the machine, and forwards them to the process server. Mobility Service can be deployed onto the servers that require protection in the following methods
+
+
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 1. [Install Mobility Service using Software deployment tools like System Center Configuration Manager](site-recovery-install-mobility-service-using-sccm.md)
 2. [Install Mobility Service using Azure Automation and Desired State Configuration(DSC)](site-recovery-automate-mobility-service-install.md)
 3. [Install Mobility Service manually using the Graphical User Interface(GUI)](site-recovery-vmware-to-azure-install-mob-svc.md#install-mobility-service-manually-using-the-graphical-user-interface)
 4. [Install Mobility Service manually using Command-line](site-recovery-vmware-to-azure-install-mob-svc.md#install-mobility-service-manually-using-command-line)
 5. [Install Mobility Service using Push Install from Azure Site Recovery](site-recovery-vmware-to-azure-install-mob-svc.md#install-mobility-service-using-push-install-from-azure-site-recovery)
 
+<<<<<<< HEAD
+=======
+
+>[!IMPORTANT]
+> Starting version 9.7.0.0, on Windows virtual machines, mobility service installer will also install latest available [Azure VM Agent](../virtual-machines/virtual-machines-windows-extensions-features.md#azure-vm-agent). This ensures that when machine fails over into Azure it meets this prerequisite required to use any VM extension.
+
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ## Prerequisites
 Perform these prerequisites before you start manually installing the Mobility Service on your servers.
 1. Login on to your Configuration Server and open up a command prompt in with Administrative privileges.
@@ -73,4 +90,8 @@ To be able to perform push installation of Mobility Service using Azure Site Rec
 
 
 ## Next steps
+<<<<<<< HEAD
 Once the Mobility Service is installed you can use the **+Replicate** button in Azure Portal to start enabling protection for these VMs.
+=======
+Once the Mobility Service is installed you can use the **+Replicate** button in Azure portal to start enabling protection for these VMs.
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a

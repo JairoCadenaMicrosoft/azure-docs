@@ -24,7 +24,11 @@ ms.author: rajanaki
 > * [Replicate to customer-owned secondary site](site-recovery-support-matrix-to-sec-site.md)
 
 
+<<<<<<< HEAD
 This article summarizes supported configurations and components for Azure Site Recovery when replicating and recovering to Azure. For more about prerequisites for Azure Site Recovery, see [Site Recovery best practices](site-recovery-best-practices.md).
+=======
+This article summarizes supported configurations and components for Azure Site Recovery when replicating and recovering to Azure. For more about Azure Site Recovery requirements, see the [prerequisites](site-recovery-prereq.md).
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 
 ## Support for deployment options
@@ -61,7 +65,11 @@ This article summarizes supported configurations and components for Azure Site R
 
 ## Support for replicated machine OS versions
 
+<<<<<<< HEAD
 Virtual machines that are protected must meet [Azure requirements](site-recovery-best-practices.md#azure-virtual-machine-requirements) when replicating to Azure.
+=======
+Virtual machines that are protected must meet [Azure requirements](#failed-over-azure-vm-requirements) when replicating to Azure.
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 The following table summarizes replicated operating system support in various deployment scenarios while using Azure Site Recovery. This support is applicable for any workload running on the mentioned OS.
 
  **VMware/physical server** | **Hyper-V (no Virtual Machine Manager)** | **Hyper-V (with Virtual Machine Manager)**
@@ -148,7 +156,11 @@ Multi-path (MPIO) | N/A | Yes | Yes
 
 **Azure storage** | **VMware/physical server** | **Hyper-V (no Virtual Machine Manager)** | **Hyper-V (with Virtual Machine Manager)**
 --- | --- | --- | ---
+<<<<<<< HEAD
 LRS | Yes | Yes | Yes 
+=======
+LRS | Yes | Yes | Yes
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 GRS | Yes | Yes | Yes
 Cool storage | No | No | No
 Hot storage| No | No | No
@@ -207,4 +219,8 @@ Move storage, network, Azure VMs across resource groups<br/><br/> Within and acr
 
 
 ## Next steps
+<<<<<<< HEAD
 [Prepare for deployment](site-recovery-best-practices.md)
+=======
+[Check prerequisites](site-recovery-prereq.md)
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a

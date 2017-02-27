@@ -18,6 +18,7 @@ ms.author: cephalin
 
 ---
 # Deploy your first HTML web app to Azure in five minutes
+<<<<<<< HEAD
 
 > [!div class="op_single_selector"]
 > * [First HTML site](app-service-web-get-started-html-cli-nodejs.md)
@@ -28,6 +29,9 @@ ms.author: cephalin
 > * [First Java app](app-service-web-get-started-java.md)
 > 
 > 
+=======
+[!INCLUDE [app-service-web-selector-get-started-cli](../../includes/app-service-web-selector-get-started-cli.md)]  
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 This tutorial helps you deploy a simple HTML+CSS web app to [Azure App Service](../app-service/app-service-value-prop-what-is.md).
 You can use App Service to create web apps, [mobile app back ends](/documentation/learning-paths/appservice-mobileapps/),

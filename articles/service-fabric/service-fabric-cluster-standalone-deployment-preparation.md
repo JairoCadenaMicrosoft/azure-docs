@@ -12,8 +12,13 @@ ms.devlang: dotnet
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: NA
+<<<<<<< HEAD
 ms.date: 1/17/2016
 ms.author: dkshir;chackdan;maburlik
+=======
+ms.date: 1/17/2017
+ms.author: maburlik;chackdan
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 
 ---
 

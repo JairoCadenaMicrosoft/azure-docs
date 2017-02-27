@@ -15,7 +15,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: vm-linux
 ms.workload: infrastructure
-ms.date: 10/24/2016
+ms.date: 02/09/2017
 ms.author: iainfou
 
 ---
@@ -232,7 +232,7 @@ azure vm create \
     --storage-account-name mystorageaccount \
     --image-urn canonical:UbuntuServer:16.04.0-LTS:latest \
     --ssh-publickey-file ~/.ssh/id_rsa.pub \
-    --admin-username ops
+    --admin-username azureuser
 ```
 
 Create the second Linux VM. The following example creates a VM named `myVM2`:
@@ -250,7 +250,7 @@ azure vm create \
     --storage-account-name mystorageaccount \
     --image-urn canonical:UbuntuServer:16.04.0-LTS:latest \
     --ssh-publickey-file ~/.ssh/id_rsa.pub \
-    --admin-username ops
+    --admin-username azureuser
 ```
 
 Use the JSON parser to verify that everything that was built:
@@ -1137,7 +1137,7 @@ azure vm create \
   --storage-account-name mystorageaccount \
   --image-urn canonical:UbuntuServer:16.04.0-LTS:latest \
   --ssh-publickey-file ~/.ssh/id_rsa.pub \
-  --admin-username ops
+  --admin-username azureuser
 ```
 
 Output:
@@ -1202,7 +1202,7 @@ azure vm create \
   --storage-account-name mystorageaccount \
   --image-urn canonical:UbuntuServer:16.04.0-LTS:latest \
   --ssh-publickey-file ~/.ssh/id_rsa.pub \
-  --admin-username ops
+  --admin-username azureuser
 ```
 
 And you can now use the `azure vm show myResourceGroup myVM1` command to examine what you've created. At this point, you're running your Ubuntu VMs behind a load balancer in Azure that you can sign into only with your SSH key pair (because passwords are disabled). You can install nginx or httpd, deploy a web app, and see the traffic flow through the load balancer to both of the VMs.
@@ -1285,7 +1285,7 @@ azure group deployment create --resource-group myNewResourceGroup \
   --template-file myResourceGroup.json
 ```
 
-You might want to read [more about how to deploy from templates](../resource-group-template-deploy-cli.md?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json). Learn about how to incrementally update environments, use the parameters file, and access templates from a single storage location.
+You might want to read [more about how to deploy from templates](../azure-resource-manager/resource-group-template-deploy-cli.md?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json). Learn about how to incrementally update environments, use the parameters file, and access templates from a single storage location.
 
 ## Next steps
 Now you're ready to begin working with multiple networking components and VMs. You can use this sample environment to build out your application by using the core components introduced here.

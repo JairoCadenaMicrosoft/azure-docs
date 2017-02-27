@@ -14,7 +14,11 @@ ms.workload: identity
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
+<<<<<<< HEAD
 ms.date: 12/15/2016
+=======
+ms.date: 02/23/2017
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ms.author: kgremban
 
 ---
@@ -53,6 +57,16 @@ It is important to configure a secondary authentication phone number.  Because y
 2. Enter your secondary phone number in the text box.  
 3. Select **Save** and your changes are finished.  
 
+<<<<<<< HEAD
+=======
+## Require two-step verification again on a device you've marked as trusted
+
+Depending on your organization settings, you may have a checkbox that says "Don't ask again for **X** days" when you perform two-step verification on your browser. If you check this box and then lose your device or think that your account is compromised, you should restore two-step verification to all your devices. 
+
+1. On the Additional security verification page, select **Restore multi-factor authentication on previously trusted devices**.
+2. The next time you sign in on any device, you'll be prompted to perform two-step verification. 
+
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 ## How do I clean up Microsoft Authenticator from my old device and move to a new one?
 When you uninstall the app from your device or reset the device, it does not remove the activation on the back end. For more information, see [Microsoft Authenticator](microsoft-authenticator-app-how-to.md).
 

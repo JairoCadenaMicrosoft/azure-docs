@@ -24,7 +24,11 @@ Link your separate Azure and Office 365 subscriptions so that you can access the
 If you want an Office 365 subscription for users in your Azure Active Directory instance or you have an Office 365 account but not an Azure account, see [Sign up for Azure with Office 365 account](billing-use-existing-office-365-account-azure-subscription.md). 
 
 ## Before you begin
+<<<<<<< HEAD
 * You must have the credentials of the Azure subscription service administrator. Co-administrator accounts can't do some of the steps in this article. To change your service administrator, see [How to add or change Azure administrator roles](billing-add-change-azure-subscription-administrator.md#how-to-change-service-administrator-for-a-subscription).
+=======
+* You must have the credentials of the Azure subscription service administrator. Co-administrator accounts can't do some of the steps in this article. To change your service administrator, see [How to add or change Azure administrator roles](billing-add-change-azure-subscription-administrator.md#change-service-administrator-for-a-subscription).
+>>>>>>> b7b2f61289b9aedbeb062daac265526d1c43dd4a
 * You must have the credentials of a global administrator of the Office 365 tenant.
 * The email address of the service administrator must not be in the Office 365 tenant.
 * The email address of the service administrator must not match that of any global administrator of the Office 365 tenant.
